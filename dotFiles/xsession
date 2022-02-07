@@ -1,0 +1,6 @@
+xset +fp /usr/local/share/fonts/nerd/ &
+xcompmgr &
+slstatus &
+xidle -delay 5 -sw -program "/usr/X11R6/bin/xlock -mode matrix" -timeout 140 &
+feh --bg-scale ~/Pictures/wallpapers/StarryPointers.png &
+exec dwm 
